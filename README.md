@@ -80,7 +80,7 @@ jupyter notebook Descriptive_Statistics_Case_Study.ipynb
 ## 📊 Screenshots
 
 ### Analysis Overview
-![Analysis Overview](ScreenShot/Screenshot%202026-01-24%20200741.png)
+![Analysis Overview](ScreenShot/Screenshot%202026-01-24%20201648.png)
 
 ### Output Summary
 ![Output](ScreenShot/output.png)
