@@ -45,7 +45,7 @@ A comprehensive case study analyzing an **Employee Dataset** using descriptive s
 
 ---
 
-## � How to Run
+## 🚀 How to Run
 
 ```bash
 # Clone the repository
@@ -63,7 +63,7 @@ jupyter notebook Descriptive_Statistics_Case_Study.ipynb
 
 ---
 
-## � Key Findings
+## 📈 Key Findings
 
 ### Age Analysis
 - **Mean:** 31.88 years | **Median:** 30 years | **Range:** 22-62 years
@@ -77,12 +77,19 @@ jupyter notebook Descriptive_Statistics_Case_Study.ipynb
 
 ---
 
-## 📊 Visualizations Included
+## 📊 Screenshots
 
-- Distribution histograms for Age & Salary
-- Box plots for outlier detection
-- Blood Group comparison charts
-- Correlation heatmap
+### Output Summary
+![Output](ScreenShot/output.png)
+
+### Bar Chart - Blood Group Distribution
+![Bar Chart](ScreenShot/bar%20chart.png)
+
+### Pie Chart - Employee Distribution
+![Pie Chart](ScreenShot/pie%20chart.png)
+
+### Box Plot - Salary Distribution
+![Box Plot](ScreenShot/boxplot.png)
 
 ---
 
@@ -95,11 +102,16 @@ jupyter notebook Descriptive_Statistics_Case_Study.ipynb
 
 ---
 
-## � Project Structure
+## 📁 Project Structure
 
 ```
 ├── Descriptive_Statistics_Case_Study.ipynb  # Main analysis notebook
 ├── Employee Dataset.csv                      # Raw data
+├── ScreenShot/                               # Visualization screenshots
+│   ├── output.png
+│   ├── bar chart.png
+│   ├── pie chart.png
+│   └── boxplot.png
 └── README.md                                 # This file
 ```
 
