@@ -1,123 +1,77 @@
-# 📊 Descriptive Statistics Case Study on Employee Dataset
+<div align="center">
 
-**Author:** Piyush Ramteke
+# 📊 Descriptive Statistics — Employee Dataset
 
----
+*Workforce analysis using statistical measures & Python*
 
-## 📝 Overview
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=flat&logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green?style=flat) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
 
-A comprehensive case study analyzing an **Employee Dataset** using descriptive statistics. This project demonstrates how to uncover patterns, distributions, and insights about workforce characteristics using Python.
+</div>
 
----
+> A concise case study analyzing 50 employee records using descriptive statistics to uncover workforce patterns in age, salary, and lifestyle scores.
 
-## 🎯 What You'll Learn
+## 📈 Key Findings
 
-- Load and clean data using Python & Pandas
-- Calculate **Central Tendency** (Mean, Median, Mode)
-- Calculate **Dispersion Measures** (Min, Max, Standard Deviation, Variance)
-- Compare statistics across different groups
-- Visualize data distributions with charts
+| Metric | Mean | Median | Range |
+|--------|------|--------|-------|
+| Age | 31.88 yrs | 30 yrs | 22–62 yrs |
+| Salary | ₹2,027 | ₹1,950 | ₹556–₹4,969 |
+| Healthy Eating | 4.92/10 | — | 1–9 |
+| Active Lifestyle | 5.90/10 | — | 1–10 |
 
----
+## 🔍 Analysis Covered
+**Central Tendency · Dispersion · Group Analysis · Visualization**
 
 ## 📂 Dataset
 
-**50 employees** with the following attributes:
+| Column | Type | Description |
+|--------|------|-------------|
+| Employee_ID | int | Unique ID |
+| Blood_Group | str | A/B/AB/O |
+| Age | int | Years (22–62) |
+| Salary | float | Annual (₹) |
+| Healthy_Eating_Score | int | 1–9 scale |
+| Active_Lifestyle_Score | int | 1–10 scale |
 
-| Column | Description |
-|--------|-------------|
-| `Employee_ID` | Unique identifier |
-| `Blood_Group` | A, B, AB, or O |
-| `Age` | Age in years (22-62) |
-| `Healthy_Eating_Score` | Self-reported score (1-9) |
-| `Active_Lifestyle_Score` | Activity level score (1-10) |
-| `Salary` | Annual salary |
+## 📊 Screenshots
 
----
+|   |   |
+|:---:|:---:|
+| ![Output](ScreenShot/output.png) | ![Bar Chart](ScreenShot/bar%20chart.png) |
+| ![Pie Chart](ScreenShot/pie%20chart.png) | ![Box Plot](ScreenShot/boxplot.png) |
 
 ## 🛠️ Tech Stack
-
-- **Python 3.8+**
-- **Pandas** - Data manipulation
-- **NumPy** - Numerical operations
-- **Matplotlib & Seaborn** - Visualization
-- **SciPy** - Statistical functions
-
----
+**Python · Pandas · NumPy · Matplotlib · Seaborn · SciPy**
 
 ## 🚀 How to Run
 
 ```bash
-# Clone the repository
 git clone https://github.com/Piyu242005/Descriptive-Statistics-Case-Study-on-Employee-Dataset.git
-
-# Navigate to folder
-cd Descriptive-Statistics-Case-Study-on-Employee-Dataset
-
-# Install dependencies
 pip install pandas numpy matplotlib seaborn scipy
-
-# Open the notebook
 jupyter notebook Descriptive_Statistics_Case_Study.ipynb
 ```
-
----
-
-## 📈 Key Findings
-
-### Age Analysis
-- **Mean:** 31.88 years | **Median:** 30 years | **Range:** 22-62 years
-
-### Salary Analysis
-- **Mean:** ₹2,027 | **Median:** ₹1,950 | **Range:** ₹556-₹4,969
-
-### Health Scores
-- **Healthy Eating:** Average 4.92/10
-- **Active Lifestyle:** Average 5.90/10
-
----
-
-## 📊 Screenshots
-
-### Analysis Overview
-![Analysis Overview](ScreenShot/Screenshot%202026-01-24%20201648.png)
-
-### Output Summary
-![Output](ScreenShot/output.png)
-
-### Bar Chart - Blood Group Distribution
-![Bar Chart](ScreenShot/bar%20chart.png)
-
-### Pie Chart - Employee Distribution
-![Pie Chart](ScreenShot/pie%20chart.png)
-
-### Box Plot - Salary Distribution
-![Box Plot](ScreenShot/boxplot.png)
-
----
-
-## 📌 Conclusion
-
-- Workforce is relatively young (avg ~32 years)
-- High salary variation indicates diverse roles/experience
-- Health scores suggest room for wellness programs
-- Clean dataset with no missing values
-
----
 
 ## 📁 Project Structure
 
 ```
-├── Descriptive_Statistics_Case_Study.ipynb  # Main analysis notebook
-├── Employee Dataset.csv                      # Raw data
-├── ScreenShot/                               # Visualization screenshots
-│   ├── output.png
-│   ├── bar chart.png
-│   ├── pie chart.png
-│   └── boxplot.png
-└── README.md                                 # This file
+├── Descriptive_Statistics_Case_Study.ipynb
+├── Employee Dataset.csv
+├── Employee Dataset Descriptive Statistics Case Study.pdf
+├── ScreenShot/
+└── README.md
 ```
 
----
+## 📌 Conclusions
 
-⭐ **Star this repo if you found it helpful!**
+* Young workforce (avg ~32 years)
+* High salary variance → diverse roles
+* Health scores suggest wellness program opportunity
+* Clean dataset, no missing values
+
+## 👨‍💻 Author
+
+**Piyush Ramteke**  
+[@Piyu242005](https://github.com/Piyu242005) · [LinkedIn](https://linkedin.com/in/piyush-ramteke) · piyu.143247@gmail.com
+
+---
+⭐ Star this repo · MIT License · March 2026
